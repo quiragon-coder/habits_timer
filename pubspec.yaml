@@ -1,0 +1,23 @@
+name: habits_timer
+description: Habits Timer - track time per activity with goals and charts
+publish_to: "none"
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  sqflite: ^2.3.3+1
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  fl_chart: ^0.69.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true
